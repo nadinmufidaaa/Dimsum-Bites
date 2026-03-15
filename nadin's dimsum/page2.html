@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order Dimsum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Order Dimsum</h1>
+            <div class="foto">
+                <img src="dimsum.png" alt="dimsum">
+            </div>
+        <h4>Pesan dimsum favoritmu di sini</h4>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Home</a> |
+        <a href="page2.html">Order</a>
+    </nav>
+
+    <main class="container">
+
+        <section>
+
+            <h3>Form Pemesanan</h3>
+
+            <p>
+                HalOoo kak! 
+                Silahkan isi form di bawah ini untuk memesan dimsum favoritmu 🥟
+            </p>
+
+            <form>
+
+                <label for="nama"> 𑣿   ᜔ Nama:</label><br>
+                <input type="text" required><br><br>
+
+                <label for="nohp"> 𑣿   ᜔ Nomor HP:</label><br>              
+                <input type="tel" required><br><br>
+                
+                <label> 𑣿   ᜔ Pilih Menu:</label><br>
+                <input type="checkbox" id="mentai">
+                <label for="mentai">Dimsum Mentai</label>
+                <input type="checkbox" id="original">
+                <label for="original">Dimsum Original</label>
+                <input type="checkbox" id="goreng">
+                <label for="goreng">Dimsum Goreng</label>
+                <input type="checkbox" id="mentai-goreng">
+                <label for="mentai-goreng">Dimsum Goreng Mentai</label>
+                <input type="checkbox" id="chilioil">
+                <label for="chilioil">Extra Chili Oil</label>
+
+                <br><br>
+
+                <label> 𑣿   ᜔ Isi:</label><br>
+                <input type="checkbox" id="Dimsum" value="Dimsum ">
+                <label for="Dimsum">4 pcs</label>
+                <input type="checkbox" id="Dimsum" value="Dimsum ">
+                <label for="Dimsum">8 pcs</label>
+                <input type="checkbox" id="Dimsum" value="Dimsum ">
+                <label for="Dimsum">16 pcs</label>
+
+                <br><br>
+
+                <label for="tanggal"> 𑣿   ᜔ Tanggal Pesan:</label><br>
+                <input type="date" required><br><br>
+
+                <label for="waktu"> 𑣿   ᜔ Waktu Pengambilan:</label><br>
+                <input type="time" required><br><br>
+
+                <label> 𑣿   ᜔ Metode Pengambilan:</label><br>
+                <input type="radio" name="ambil"> Pick Up
+                <input type="radio" name="ambil"> Delivery
+
+                <br><br>
+
+                <label for="jumlah"> 𑣿   ᜔ Jumlah Pesanan:</label><br>
+                <input type="number" min="1" required><br><br>
+
+                <label> 𑣿   Catatan:</label><br>
+                <textarea rows="2" cols="60"></textarea>
+
+                <br><br>
+
+                <label> 𑣿   Alamat:</label><br>
+                <textarea rows="2" cols="60"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Pesan">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <center>
+            <div class="owner">
+            <img src="foto-nadin.jpeg" alt="Owner Dimsum Bites">
+            <p> Nadin Mufida | F1D02410128</p>
+            </div>
+        </center>
+
+    </footer>
+
+</body>
+
+</html>

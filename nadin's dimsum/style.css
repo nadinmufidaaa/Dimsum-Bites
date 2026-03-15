@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f6f1eb;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+header{
+    background-color:#c833338a;
+    color:white;
+    height:400px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    padding-top:20px;
+    font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+}
+
+header h4{
+    font-family:Cambria,Cochin,Georgia,Times,'Times New Roman',serif;
+    margin-top:35px;
+}
+
+section p{
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.foto{
+    overflow:hidden;
+    border-radius:50%;
+    margin:auto;
+    width:250px;
+    margin-top:25px;
+}
+
+.foto img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.menu-img{
+    display:block;
+    margin:auto;
+    width:250px;
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    padding:10px;
+    background-color:#ffffff;
+}
+
+nav a{
+    color:#0d2831;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ff6600;
+}
+
+nav a:focus-visible{
+    outline:2px solid blue;
+}
+
+section{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:8px;
+}
+
+.menu-table{
+    margin:auto;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+.menu-table th{
+    background-color:#c833338a;
+    color:black;
+}
+
+th, td{
+    padding:10px;
+    border:1px solid #ccc;
+}
+
+form{
+    margin-top:20px;
+
+}
+
+form label{
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    padding:6px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+input[type="text"],
+input[type="tel"]{
+    padding:6px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width: 360px;
+    
+}
+
+input[type="submit"]{
+    background-color:#c833338a;
+    color:black;
+    border:none;
+    padding:8px 16px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:#ff6600;
+}
+
+footer{
+    background-color:#c833338a;
+    color:whitesmoke;
+    text-align:center;
+    padding:10px;
+    font-family:Cambria,Cochin,Georgia,Times,'Times New Roman',serif;
+}
+
+.owner{
+    text-align:center;
+    margin:20px 0;
+}
+
+.owner img{
+    width:120px;
+    border-radius:50%;
+}
